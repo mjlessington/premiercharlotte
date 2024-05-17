@@ -1,0 +1,30 @@
+body {
+    background-image: url('assets/istockphoto-MOCK.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center center;
+}
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.line-break {
+  color: #D3353E;
+  border: 1.5px solid #D3353E;
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 2.2em;
+}
+
+.btn-border {
+  border: 2px solid #192137;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
