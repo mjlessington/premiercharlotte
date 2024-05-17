@@ -12,7 +12,7 @@ body {
 
 .line-break {
   color: #D3353E;
-  border: 1.5px solid #D3353E;
+  border-top: 3px solid #D3353E;
   width: 50%;
   margin-top: 0px;
   margin-bottom: 2.2em;
