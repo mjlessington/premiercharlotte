@@ -1,8 +1,9 @@
 body {
-    background-image: url('assets/istockphoto-MOCK.jpeg');
+    background-image: url('assets/PremierCLT.jpg');
     background-size: cover;
     background-repeat: no-repeat;  
     background-position: center center;
+    heith: 100vh;
 }
 .fira-sans-bold {
   font-family: "Fira Sans", sans-serif;
@@ -27,4 +28,8 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.message-section {
+  margin-right: 6.5em;
 }
