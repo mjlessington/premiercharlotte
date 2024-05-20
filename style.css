@@ -14,11 +14,15 @@ body {
 .line-break {
   color: #cc3333;
   border-top: 3px solid #cc3333;
-  width: 50%;
+  width: 25%;
   margin-top: 0px;
   margin-bottom: 2.2em;
 }
-
+@media (max-width: 576px) {
+  .line-break {
+    width: 50%;
+  };
+}
 .pclt-btn-border {
   border: 2px solid #2e3c67;
   border-radius: 5px;
@@ -28,6 +32,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+button.pclt-btn-border:hover {
+  background-color: #2e3c67;
+  color: white;
 }
 
 .message-section {
